@@ -166,11 +166,11 @@ class App extends Component {
           </div>
 
           <div className="row no-gutter">
-            <div className={this.state.showSideBar ? 'col-sm-8' : 'col-sm-12'}>
+            <div className={this.state.showSideBar ? 'col-md-8 col-xs-6' : 'col-md-12'}>
               {repoList}
             </div>
             {this.state.showSideBar && (
-              <div className="col-sm-4">
+              <div className="col-md-4 col-xs-6">
                 <SideBar onClick={this.handleSideBarCloseClick} owner={this.state.currentOrg} repo={this.state.currentRepo} />
               </div>
             )}
