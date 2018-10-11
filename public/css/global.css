@@ -1,0 +1,224 @@
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    display: block;
+    padding: 30px 0;
+}
+
+header img {
+    margin-right: 20px;
+    vertical-align: top;
+    width: 120px;
+}
+
+header h1 {
+    color: #fff;
+    display: inline-block;
+    font-size: 28px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #ec0008;
+}
+
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-addon,
+.input-group-lg>.input-group-btn>.btn,
+#search-form input[type="text"] {
+    border-radius: 20px;
+}
+
+.no-gutter>[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.form-control {
+    background-color: #eff3f4;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background-color: #fff;
+}
+
+.btn-link,
+a {
+    color: #000;
+}
+
+.btn-link:focus,
+.btn-link:hover,
+a:hover,
+a:focus {
+    color: #ec0008;
+}
+
+#search-form {
+    margin-top: 20px;
+}
+
+#search-form .input-group {
+    display: block;
+}
+
+#search-form .input-group-btn {
+    position: absolute;
+}
+
+#search-form .btn-search {
+    background-color: transparent;
+    margin-right: -50px;
+    z-index: 10;
+}
+
+#search-form .btn-search:hover {
+    z-index: 10;
+}
+
+#search-form input[type="text"] {
+    padding-left: 60px;
+}
+
+.repo {
+    padding: 2px 10px 25px 10px;
+}
+
+.repo .btn-link {
+    padding: 0;
+}
+
+.repo .details span,
+.repo .details time {
+    margin-right: 20px;
+}
+
+.repo i {
+    margin-right: 5px;
+}
+
+.main,
+.sidebar {
+    height: 100vh;
+    padding: 3px;
+    overflow: auto;
+}
+
+.sidebar {
+    border-left: 1px solid #e4e4e4;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.repo-list,
+.commit-list {
+    height: 100%;
+    overflow: auto;
+}
+
+.commit {
+    padding: 10px 5px 25px 5px;
+}
+
+.commit h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.commit .img {
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 20px
+}
+
+button.close {
+    font-size: 30px;
+}
+
+.repo:hover,
+.commit:hover {
+    background-color: #fbfbfb;
+}
+
+@keyframes content-loader {
+    0% {
+        background: #eff3f4;
+    }
+    100% {
+        background: #dce6ec;
+    }
+}
+
+h1:empty,
+h2:empty,
+h3:empty,
+h4:empty,
+h5:empty,
+p:empty,
+strong:empty,
+small:empty,
+.empty-img {
+    animation: content-loader 0.5s ease alternate infinite;
+    background: #eff3f4;
+    margin-bottom: 5px;
+}
+
+.empty-img {
+    border-color: transparent;
+    margin-bottom: 4px;
+}
+
+h1:empty {
+    height: 36px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+h2:empty {
+    height: 30px;
+    margin-bottom: 12px;
+    width: 50%;
+}
+
+h3:empty {
+    height: 22px;
+    margin-bottom: 14px;
+    width: 40%;
+}
+
+h4:empty {
+    height: 14px;
+    width: 50%;
+}
+
+h5:empty {
+    height: 10px;
+    width: 40%;
+}
+
+p:empty {
+    width: 80%;
+    height: 10px;
+}
+
+small:empty {
+    display: block !important;
+    height: 12px;
+    width: 40%;
+}
+
+.empty-center {
+    margin: auto;
+}
