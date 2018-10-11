@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import OrgForm from './components/OrgForm';
-import SideBar from './components/Sidebar';
+import SideBar from './components/SideBar';
 import Repo from './components/Repo';
 
 /**
