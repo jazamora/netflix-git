@@ -2,6 +2,8 @@ import React from 'react';
 import Commit from './Commit';
 import ErrorBoundry from './ErrorBoundry';
 
+import './SideBar.css';
+
 /**
  * SideBar component that hold commit list for a specific repo
  */

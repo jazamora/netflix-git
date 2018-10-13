@@ -65,91 +65,19 @@ a:focus {
     color: #ec0008;
 }
 
-#search-form {
-    margin-top: 20px;
-}
-
-#search-form .input-group {
-    display: block;
-}
-
-#search-form .input-group-btn {
-    position: absolute;
-}
-
-#search-form .btn-search {
-    background-color: transparent;
-    margin-right: -50px;
-    z-index: 10;
-}
-
-#search-form .btn-search:hover {
-    z-index: 10;
-}
-
-#search-form input[type="text"] {
-    padding-left: 60px;
-}
-
-.repo {
-    padding: 2px 10px 25px 10px;
-}
-
-.repo .btn-link {
-    padding: 0;
-}
-
-.repo .details span,
-.repo .details time {
-    margin-right: 20px;
-}
-
-.repo i {
-    margin-right: 5px;
-}
-
-.main,
-.sidebar {
+.main {
     height: 100vh;
     padding: 3px;
     overflow: auto;
 }
 
-.sidebar {
-    border-left: 1px solid #e4e4e4;
-    margin-top: 20px;
-    padding: 0 20px;
-}
-
-.repo-list,
 .commit-list {
     height: 100%;
     overflow: auto;
 }
 
-.commit {
-    padding: 10px 5px 25px 5px;
-}
-
-.commit h5 {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.commit .img {
-    border-radius: 50%;
-    margin-right: 5px;
-    width: 20px
-}
-
 button.close {
     font-size: 30px;
-}
-
-.repo:hover,
-.commit:hover {
-    background-color: #fbfbfb;
 }
 
 @keyframes content-loader {

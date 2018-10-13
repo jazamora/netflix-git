@@ -2,6 +2,8 @@ import React from 'react';
 import Gravatar from 'react-gravatar';
 import TimeAgo from 'react-timeago';
 
+import './Commit.css';
+
 /**
  * Commit component that shows the details for a specific commit
  * 

@@ -1,0 +1,25 @@
+.repo {
+    padding: 2px 10px 25px 10px;
+}
+
+.repo .btn-link {
+    padding: 0;
+}
+
+.repo .details span,
+.repo .details time {
+    margin-right: 20px;
+}
+
+.repo i {
+    margin-right: 5px;
+}
+
+.repo-list {
+    height: 100%;
+    overflow: auto;
+}
+
+.repo:hover {
+    background-color: #fbfbfb;
+}

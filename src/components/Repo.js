@@ -1,6 +1,8 @@
 import React from 'react';
 import TimeAgo from 'react-timeago';
 
+import './Repo.css';
+
 /**
  * Repo component that will display repo details
  */
